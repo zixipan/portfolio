@@ -1,0 +1,174 @@
+
+body{
+	font-family: 'Raleway', sans-serif; 
+	margin: 0;
+	padding: 0;
+	font-size: 16pt; 
+	background-color: #ffe4e1;
+}
+p {
+	padding: 0 30px;
+}
+
+header{
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center; 
+	background: #fff;
+	border-bottom: 3px solid #e6e6fa;
+}
+
+h1{
+	font-size: 20px;
+}
+footer{
+	background-color: black;
+	color: white;
+	padding: 30px;
+	text-align: center;
+}
+
+#logo{
+	width:30%;
+}
+
+.nav_links{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+}
+
+.nav_item a{
+	color: black;
+  	text-decoration: none;
+}
+
+.session_container{
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	grid-template-rows: repeat(3,1fr);
+	grid-row-gap: 15px;
+}
+.about{
+	display: grid;
+	grid-column:2/span 1 ;
+	grid-row: 1/2;
+	grid-row-gap: 15px;
+	width:100%;
+	height:100%;
+}
+.about img{
+	width: 100%;
+}
+.projects{
+	display: grid;
+	grid-column:2/span 1 ;
+	grid-row: 2/3;
+	grid-row-gap: 15px;
+	width:100%;
+	height:100%;
+}
+
+.projects img{
+	width: 100%;
+}
+.resume{
+	display: grid;
+	grid-column:2/span 1 ;
+	grid-row: 3/4;
+	grid-row-gap: 15px;
+	width:100%;
+	height:100%;
+}
+
+.resume img{
+	width: 100%;
+}
+/*#img_about{
+	border: 1px solid #ddd;
+  	border-radius: 4px;
+  	padding: 5px;
+  	width: 450px;
+}
+#img_project{
+	border: 1px solid #ddd;
+  	border-radius: 4px;
+  	padding: 5px;
+  	width: 450px;
+}
+#img_resume{
+	border: 1px solid #ddd;
+  	border-radius: 4px;
+  	padding: 5px;
+  	width: 450px;
+}*/
+.resume_back{
+	padding: 50px;
+}
+.resume_pdf{
+  	height: 800px;
+  	width: 600px;
+  }
+
+@media screen and (min-width: 800px){
+  header{
+    display: flex;
+	flex-direction: row; 
+	justify-content: space-between;
+	align-items: flex-end; 
+	background: #fff;
+	border-bottom: 3px solid #e6e6fa  
+  }
+/*  .session_container{
+	display: flex;
+  	flex-direction: row; 
+  	justify-content: center;
+  	align-items: center;
+  }*/
+
+  .nav_links{
+    flex-direction: row;
+  }
+
+  .nav_item a{
+    padding: 10px;
+  }
+  .resume_pdf{
+  	height: 1000px;
+  	width: 800px;
+  }
+
+  .card{
+  	width:50%;
+  	height:50%;
+  }
+
+
+/*	.card:nth-child(1) {
+	    transition: all 0.3s ease-out;
+	    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	}
+	.card:nth-child(1) {
+		background-image: url("../content/about.png");
+	    background-size: 40px;
+	}
+	.card:nth-child(2) {
+	    transition: all 0.3s ease-out;
+	    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	}
+	.card:nth-child(2) {
+	    background-image: url("..content/projects.png");
+	    background-size: 40px;
+	}
+	.card:nth-child(3) {
+	    transition: all 0.3s ease-out;
+	    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+	}
+	.card:nth-child(3) {
+	    background-image: url("../content/resume.png");
+	    background-size: 40px;
+	}*/
+}
