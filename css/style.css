@@ -87,24 +87,7 @@ footer{
 .resume img{
 	width: 100%;
 }
-/*#img_about{
-	border: 1px solid #ddd;
-  	border-radius: 4px;
-  	padding: 5px;
-  	width: 450px;
-}
-#img_project{
-	border: 1px solid #ddd;
-  	border-radius: 4px;
-  	padding: 5px;
-  	width: 450px;
-}
-#img_resume{
-	border: 1px solid #ddd;
-  	border-radius: 4px;
-  	padding: 5px;
-  	width: 450px;
-}*/
+
 .resume_back{
 	padding: 50px;
 }
@@ -112,6 +95,16 @@ footer{
   	height: 800px;
   	width: 600px;
   }
+
+.back_nav{
+	display: block;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none
+}
+
 
 @media screen and (min-width: 800px){
   header{
@@ -122,12 +115,6 @@ footer{
 	background: #fff;
 	border-bottom: 3px solid #e6e6fa  
   }
-/*  .session_container{
-	display: flex;
-  	flex-direction: row; 
-  	justify-content: center;
-  	align-items: center;
-  }*/
 
   .nav_links{
     flex-direction: row;
