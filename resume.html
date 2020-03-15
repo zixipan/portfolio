@@ -7,20 +7,27 @@
 		<title>Resume</title>
 	</head>
 	<body data-gr-c-s-loaded = "true">
-		<main class= "resume_main">
-			<a class = "resume_back" href="index.html">Back to Homepage</a>
-			<center>
-				<h1>
-					<b>
-						<i>Resume</i>
-					</b>
-				</h1>
-			</center>
+		<a class = "skip" href="#skip">Skip to Main Content</a>
+		<header>
+			<img src="content/nav_logo.png" alt="logo" id = "logo">
+			<nav id = "Menu" class = "Menu">
+				<ul class="nav_links">
+					<li class="nav_item"><a href="index.html">Home</a></li>
+					<li class="nav_item"><a href="about.html">About</a></li>
+					<li class="nav_item"><a href="index.html#projects">Projects</a></li>
+					<li class="nav_item"><a class="current">Resume</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class= "resume_main" id="skip">
+			<h1>
+				<b>
+					<i>Resume</i>
+				</b>
+			</h1>
 			<br>
 			<br>
-			<center>
-				<iframe class="resume_pdf" src = "content/resume.pdf" />
-			</center>
+			<iframe class="resume_pdf" src = "content/resume.pdf" title="resume"/>
 		</main>
 		<footer>
       		<p>University of Michigan School of Information <br/>

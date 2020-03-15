@@ -7,17 +7,105 @@
 		<title>Zixi's HomePage</title>
 	</head>
 	<body>
+		<a class = "skip" href="#skip">Skip to Main Content</a>
 		<header>
 			<img src="content/nav_logo.png" alt="logo" id = "logo">
 			<nav id = "Menu" class = "Menu">
 				<ul class="nav_links">
 					<li class="nav_item"><a href="index.html">Home</a></li>
-					<li class="nav_item"><a href="project.html">Projects</a></li>
+					<li class="nav_item"><a class= "current">About</a></li>
+					<li class="nav_item"><a href="index.html#projects">Projects</a></li>
 					<li class="nav_item"><a href="resume.html">Resume</a></li>
 				</ul>
 			</nav>
 		</header>
-		<main class="about_main">
+		<main class="about_main" id="skip">
+			<div class="content">
+  				<div class="content__container">
+    				<p class="content__container__text">
+      				Hello
+    				</p>
+    
+    				<ul class="content__container__list">
+      					<li class="content__container__list__item">world</li>
+      					<li class="content__container__list__item">friends</li>
+      					<li class="content__container__list__item">guys</li>
+      					<li class="content__container__list__item">homies</li>
+				    </ul>
+				</div>
+			</div>
+			<img class = "photo" src= "content/pic.jpeg" alt="personal photo"/>
+			<h1>About Me</h1>
+			<div class = introduction>
+				<p>Welcome to my portfolio</p>
+				<p>My name is Zixi Pan, I am a Master's student in the Univerisity of Michigan studying for Information.</p>
+				<p>Currently, I am focusing on studying Data Science/Data Analysis fields but I am also interested in Design fields. </p>
+				<p>I took many courses such as web design, user experience design, graphic design and so on. </p>
+				<p>I love animals so I have four pets. I have two Ragdoll named Hanabi and Koori, I also have two Samoyed named Umi and Seven.</p>
+				<p>Here are some pictures, I hope you enjoy them!</p>
+			</div>
+			<h1>Pet Gallery</h1>
+			<div class="pet_gallery">
+				<div class="photo_gallery">
+					<img src="content/nabi1.jpeg" alt="nabi" class="image">
+					<div class="overlay">My Name is Hanabi</div>
+				</div>
+				<div class="photo_gallery">
+					<img src="content/nabi2.jpeg" alt="nabi2" class="image">
+					<div class="overlay">My Name is Hanabi</div>
+				</div>
+				<div class="photo_gallery">
+					<img src="content/koori1.jpeg" alt="koori" class="image">
+					<div class="overlay">My Name is Koori</div>
+				</div>
+				<div class="photo_gallery">
+					<img src="content/koori2.jpeg" alt="koori2" class="image">
+					<div class="overlay">My Name is Koori</div>
+				</div>
+				<div class="photo_gallery">
+					<img src="content/umi1.jpeg" alt="umi" class="image">
+					<div class="overlay">My Name is Umi</div>
+				</div>
+				<div class="photo_gallery">
+					<img src="content/umi2.jpeg" alt="umi2" class="image">
+					<div class="overlay">My Name is Umi</div>
+				</div>
+				<div class="photo_gallery">
+					<img src="content/umi3.jpeg" alt="umi3" class="image">
+					<div class="overlay">My Name is Umi</div>
+				</div>
+				<div class="photo_gallery">
+					<img src="content/seven1.jpeg" alt="seven" class="image">
+					<div class="overlay">My Name is Seven</div>
+				</div>
+				<div class="photo_gallery">
+					<img src="content/seven2.jpeg" alt="seven2" class="image">
+					<div class="overlay">My Name is Seven</div>
+				</div>
+			</div>
+			<form action="https://formspree.io/mayovzzo" method="POST">
+			<fieldset>
+   				<legend>Contact Form</legend>
+   				<div class = "contact">
+				    <label for ="first">First Name:</label>
+				    <input type="text" id ="first" name="fname" placeholder ="First Name" required/> 
+
+					<label for ="last">Last Name:</label>
+					<input type="text" id ="last" name="lname" placeholder ="Last Name" required/> 
+
+					<label for ="email">Email:</label>
+					<input type="email" id="email" name ="em" placeholder ="e.g. hello@umich.edu" required/> 
+
+					<label for ="subject">Subject:</label>
+					<input type="text" id="subject" name ="sub" /> 
+
+					<label for ="message">Message:</label>
+					<textarea id = "message" class="input" name="message" rows="9" cols="30" required></textarea>
+				
+					<input id="submit_button" type="submit" value="SUBMIT" />
+				</div>
+			</fieldset>
+			</form>
 		</main>
 		<footer>
       		<p>University of Michigan School of Information <br/>

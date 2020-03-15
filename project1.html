@@ -7,17 +7,36 @@
 		<title>Zixi's HomePage</title>
 	</head>
 	<body>
+		<a class = "skip" href="#skip">Skip to Main Content</a>
 		<header>
 			<img src="content/nav_logo.png" alt="logo" id = "logo">
 			<nav id = "Menu" class = "Menu">
 				<ul class="nav_links">
 					<li class="nav_item"><a href="index.html">Home</a></li>
 					<li class="nav_item"><a href="about.html">About</a></li>
+					<li class="nav_item"><a class= "current">Project</a></li>
 					<li class="nav_item"><a href="resume.html">Resume</a></li>
 				</ul>
 			</nav>
 		</header>
-		<main class="project_main">
+		<main class="project_main" id="skip">
+			<h1>Dark Sky - Indiana Hoosier National Forest</h1>
+			<div class = "poster">
+				<img src="content/poster.jpeg" alt="poster" />
+			</div>
+			<h1><u>Abstract</u></h1>
+			<div class = "pj1_content">
+				<br>
+				<p>DarkSky is a web system project and was completed for and alongside HoosierNational Forest as a part of the Sustainable Hoosier Communities Initiative. Wecall this project Dark Sky becauseits goal is to track and display light pollution data. Light pollution is thebrightening of the night sky caused by man-made sources (like city lights).Hoosier National Forest wanted to complete this project because they hope to bedesignated an International Dark Sky Park.This requires them to prove that, over time, total light pollution levels arebelow a certain threshold. Our system helps them do that in a few ways. </p>
+				<p>We worked alongside a hardware team(another IU class) that developed light sensors. These light sensors takereadings once per hour, every day. At the end of the day, the readings arepublished to a server. Our system is subscribed to these publishings, so eachday, new data is added to our database. The data in the database is availableto download in CSV format. This gives Hoosier National Forest the ability tosupply data for whatever time periods they choose. This data is also displayedon a map and in various graphs on our website.</p>
+				<p>The previously described sectionsof the website can also be used by the public, specifically by users who mightbe interested in light pollution or astrology. Our web system contains anadministrative side that is only available to personnel designated by HoosierNational Forest. The administrative website allows admin users to add andremove sensors, which are ultimately added to the map. If a sensor is removedfrom the system, its point on the map disappears as do its graphs. The adminsite also has a special component for what we call root users. These aremanagerial type accounts, which can add and remove the admin access of otherusers.</p>
+				<p>DarkSky is a web system that can easily be adjusted for use by other parks andinstitutions to track their own light pollution data. The system could also betweaked to report other types of data, like how many people walk a trail throughoutthe day, simply by changing the type of sensor used in the field. Dark Sky will allow Hoosier NationalForest to provide light pollution data to the International Dark SkyAssociation in many different formats and ultimately be designated one of the fewInternational Dark Sky Parks in the Midwest.</p>
+				<br>
+			</div>
+			<div class="ref">
+				<p><i>Reference: http://www.darksky.org/idsp/parks/</i></p>
+			</div>
+
 		</main>
 		<footer>
       		<p>University of Michigan School of Information <br/>
