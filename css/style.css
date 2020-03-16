@@ -8,6 +8,12 @@ body{
 	padding: 0;
 	font-size: 16pt; 
 	background-color: #ffe4e1;
+	background-image: url("../content/bg-f.png");
+	min-height: 500px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 p {
 	padding: 0 30px;
@@ -58,6 +64,40 @@ footer{
 	text-align: center;
 }
 
+
+.parallax {
+	margin-top: 0;
+	background-image: url("../content/bg-c.jpeg");
+	min-height: 620px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax h1{
+	font-family:'Raleway', sans-serif;
+	font-size: 3rem;
+	font-weight: 800;
+	line-height: 6.5rem;
+	animation-name: opacity;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	color:#9370DB;
+
+}
+
+.parallax img{
+	display: block;
+	width:20rem;
+	margin:0 auto;
+	animation-name: opacity;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+}
+
+
+
 #logo{
 	width:30%;
 }
@@ -68,6 +108,7 @@ footer{
 	background-color: #FFDAB9;
 	color: grey;
 	font-weight: bold;
+	text-transform: uppercase;
 
 }
 .nav_links{
@@ -836,6 +877,19 @@ fieldset{
 	transition: none;
 	animation: none;
   }
+
+  .parallax h1{
+	-webkit-transition: none;
+	transition: none;
+	animation: none;
+
+}
+
+	.parallax img{
+	-webkit-transition: none;
+	transition: none;
+	animation: none;
+}
 	.flip-card:hover {
 	-webkit-transition: none;
 	transition: none;
