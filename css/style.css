@@ -9,7 +9,7 @@ body{
 	font-size: 16pt; 
 	background-color: #ffe4e1;
 	background-image: url("../content/bg-f.png");
-	min-height: 200px; 
+	min-height: 100px; 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -167,7 +167,7 @@ footer{
 .parallax {
 	margin-top: 0;
 	background-image: url("../content/bg-c.jpeg");
-	min-height: 200px; 
+	min-height: 20px; 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -811,8 +811,8 @@ input:focus{
 
 .resume_pdf{
 	display: block;
-	height: 800px;
-	width: 600px;
+	height: 500px;
+	width: 375px;
 	margin: 0 auto;
   }
 
@@ -1009,6 +1009,13 @@ ul{
 	grid-row: 9/10;
 }
 
+.resume_pdf{
+	display: block;
+	height: 800px;
+	width: 600px;
+	margin: 0 auto;
+  }
+
 @media screen and (min-width: 1024px){
   header{
 	display: flex;
@@ -1200,6 +1207,13 @@ fieldset{
 	grid-column:2/span 1 ;
 	grid-row: 7/8;
 }
+
+.resume_pdf{
+	display: block;
+	height: 1200px;
+	width: 900px;
+	margin: 0 auto;
+  }
 
 }
 }
