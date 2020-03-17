@@ -35,6 +35,104 @@ h1{
 	margin: 0 auto;
 }
 
+
+
+/*loading page*/
+
+:root {
+  --color_base: #1a1a1a;
+  --c_01: #ff748c;
+  --c_02: #ffc100;
+  --c_03: #ff615d;
+  --c_04: #5e5e5e;
+}
+
+::-moz-selection {
+  background-color: var(--c_01);
+}
+
+::selection {
+  background-color: var(--c_01);
+}
+
+
+.loader-wrapper{
+	width: 100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	background-color: white;
+}
+
+.loader {
+  width: 105px;
+  height: 175px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+.loader__txt {
+  color: var(--c_04);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.7em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  line-height: 1.5;
+  margin-top: 52.5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.drop {
+  width: 18px;
+  height: 18px;
+  border-radius: 0 9px 9px;
+  display: inline-block;
+  margin: 0 3%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.drop--01 {
+  -webkit-animation: drop 0.5s 0.15s infinite ease-in alternate;
+          animation: drop 0.5s 0.15s infinite ease-in alternate;
+  background-color: var(--c_01);
+}
+.drop--02 {
+  -webkit-animation: drop 0.5s 0.3s infinite ease-in alternate;
+          animation: drop 0.5s 0.3s infinite ease-in alternate;
+  background-color: var(--c_02);
+}
+.drop--03 {
+  -webkit-animation: drop 0.5s 0.45s infinite ease-in alternate;
+          animation: drop 0.5s 0.45s infinite ease-in alternate;
+  background-color: var(--c_03);
+}
+
+@-webkit-keyframes drop {
+  100% {
+    -webkit-transform: translateY(200%) rotate(45deg);
+            transform: translateY(200%) rotate(45deg);
+  }
+}
+
+@keyframes drop {
+  100% {
+    -webkit-transform: translateY(200%) rotate(45deg);
+            transform: translateY(200%) rotate(45deg);
+  }
+}
+
+
+/*loading page end*/
+
+
+
+
 a.skip{
 	background: white;
   	left: 0;

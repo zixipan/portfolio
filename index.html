@@ -5,10 +5,18 @@
 		<link rel="shortcut icon" type="image/png" href="content/logo.png"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 		<title>Zixi's HomePage</title>
 	</head>
 	<body>
-		<!-- <div class="skip"><a href="#skip">Skip to Main Content</a></div> -->
+		<!-- <div class = "loader-wrapper">
+			<div class="loader">
+	  			<div class="drop drop--01"></div>
+	  			<div class="drop drop--02"></div>
+	  			<div class="drop drop--03"></div>
+	  			<p class="loader__txt">loading</p>
+			</div>
+		</div> -->
 		<a class = "skip" href="#skip">Skip to Main Content</a>
 		<header>
 			<img src="content/nav_logo.png" alt="logo" id = "logo">
@@ -22,6 +30,14 @@
 			</nav>
 		</header>
 		<main class='index' id="skip">
+			<div class = "loader-wrapper">
+				<div class="loader">
+		  			<div class="drop drop--01"></div>
+		  			<div class="drop drop--02"></div>
+		  			<div class="drop drop--03"></div>
+		  			<p class="loader__txt">loading</p>
+				</div>
+			</div>
 			<div class="parallax" alt="parallax background">
 				<br><br><br>
 				<h1>Hello!</h1>
@@ -124,6 +140,11 @@
 			</ul>
 
 		</main>
+		<script type="text/javascript">
+			$(window).on("load",function(){
+				$(".loader-wrapper").fadeOut("slow");
+			});
+		</script>
 		<footer>
 			<p>University of Michigan School of Information <br/>
 		&copy; Zixi Pan</p>
