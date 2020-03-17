@@ -1250,4 +1250,36 @@ fieldset{
 	transition: none;
 	animation: none;
   }
+
+  .loader {
+  	-webkit-transition: none;
+	transition: none;
+	animation: none;
+}
+.loader__txt {
+	-webkit-transition: none;
+	transition: none;
+	animation: none;
+}
+
+.drop {
+	-webkit-transition: none;
+	transition: none;
+	animation: none;
+}
+.drop--01 {
+	-webkit-transition: none;
+	transition: none;
+	animation: none;
+}
+.drop--02 {
+	-webkit-transition: none;
+	transition: none;
+	animation: none;
+}
+.drop--03 {
+	-webkit-transition: none;
+	transition: none;
+	animation: none;
+}
 }

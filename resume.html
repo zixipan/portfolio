@@ -4,9 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 		<title>Resume</title>
 	</head>
-	<body data-gr-c-s-loaded = "true">
+	<body>
 		<a class = "skip" href="#skip">Skip to Main Content</a>
 		<header>
 			<img src="content/nav_logo.png" alt="logo" id = "logo">
@@ -20,6 +21,14 @@
 			</nav>
 		</header>
 		<main class= "resume_main" id="skip">
+			<div class = "loader-wrapper">
+				<div class="loader">
+		  			<div class="drop drop--01"></div>
+		  			<div class="drop drop--02"></div>
+		  			<div class="drop drop--03"></div>
+		  			<p class="loader__txt">loading</p>
+				</div>
+			</div>
 			<h1>
 				<b>
 					<i>Resume</i>
@@ -27,6 +36,11 @@
 			</h1>
 			<br>
 			<br>
+			<script type="text/javascript">
+				$(window).on("load",function(){
+					$(".loader-wrapper").fadeOut("slow");
+				});
+			</script>
 			<iframe class="resume_pdf" src = "content/resume.pdf" title="resume"/>
 		</main>
 		<footer>
