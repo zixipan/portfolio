@@ -9,7 +9,7 @@ body{
 	font-size: 16pt; 
 	background-color: #ffe4e1;
 	background-image: url("../content/bg-f.png");
-	min-height: 500px; 
+	min-height: 200px; 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -167,7 +167,7 @@ footer{
 .parallax {
 	margin-top: 0;
 	background-image: url("../content/bg-c.jpeg");
-	min-height: 620px; 
+	min-height: 200px; 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
