@@ -18,7 +18,7 @@
 		</script>
 
 	</head>
-	<body class="preload">
+	<body>
 		<div class = "loader-wrapper">
 			<div class="loader">
 		  		<div class="drop drop--01"></div>
@@ -48,100 +48,101 @@
 		  			<p class="loader__txt">loading</p>
 				</div>
 			</div> -->
-			<div class="parallax">
-				<h1>Hello!</h1>
-				<h1>Welcome to my page!</h1>
-				<img src="content/heart.png" alt="heart" id = "heart">
+			<div class="preload" id="pld">
+				<div class="parallax">
+					<h1>Hello!</h1>
+					<h1>Welcome to my page!</h1>
+					<img src="content/heart.png" alt="heart" id = "heart">
+				</div>
+				<div class = "session_container">
+					<h1 class = "h1_about" id = "about">About<br>(Check flip-cards below)</h1>
+					<div class = "about">
+						<div class="flip-card" tabindex=0>
+							<div class="flip-card-inner">
+								<div class="flip-card-front" >
+									<img  id = "img_about" src= "content/about.jpeg" alt="go to about page"/>
+	    						</div>
+	    						<div class="flip-card-back">
+	      							<p><b>About Me</b></p>
+	      							<p>Background Information</p>
+							      	<p>Pets Gallery</p>
+							      	<p>Contact Form</p>
+							      	<a href = "about.html"><b>Click Me For More ABOUT Details</b></a>
+							    </div>
+							</div>
+						</div>
+					</div>
+					<h1 class = "h1_project" id= "projects">Projects<br>(Check flip-cards below)</h1>
+					<div class = "projects">
+						<div class="flip-card" id = "pj1" tabindex=0>
+							<div class="flip-card-inner">
+								<div class="flip-card-front" >
+									<img id = "img_project1" src= "content/pj1.jpeg" alt="go to project1 page" />
+	    						</div>
+	    						<div class="flip-card-back">
+	      							<p><b>Project - Dark Sky</b></p>
+							      	<p>Indiana University Hoosier National Forest</p>
+							      	<p>Web Design and Data Management</p>
+							      	<a href = "project1.html"><b>Click Me For More PROJECT1 Details</b></a>
+							    </div>
+							</div>
+						</div>
+						<div class="flip-card" id = "pj2" tabindex=0>
+							<div class="flip-card-inner">
+								<div class="flip-card-front" >
+									<img id = "img_project2" src= "content/pj2.jpeg" alt="go to project2 page"/>
+	    						</div>
+	    						<div class="flip-card-back">
+	      							<p><b>Project - Data Management Consulting</b></p>
+							      	<p>Dominos</p>
+							      	<p>Client Consulting</p>
+							      	<a href = "project2.html"><b>Click Me For More PROJECT2 Details</b></a>
+							    </div>
+							</div>
+						</div>
+						<div class="flip-card" id = "pj3" tabindex=0>
+							<div class="flip-card-inner">
+								<div class="flip-card-front" >
+									<img id = "img_project3" src= "content/pj3.jpeg" alt="go to project3 page"/>
+	    						</div>
+	    						<div class="flip-card-back">
+	      							<p><b>Project - Healthy Wear (Pet Health Monitor)</b></p>
+							      	<p>University of Michigan</p>
+							      	<p>Product Design</p>
+							      	<a href = "project3.html"><b>Click Me For More PROJECT3 Details</b></a>
+							    </div>
+							</div>
+						</div>
+					</div>
+					<h1 class = "h1_resume" id = "resume">Resume<br>(Check flip-cards below)</h1>
+					<div class = "resume">
+						<div class="flip-card" tabindex=0>
+							<div class="flip-card-inner">
+								<div class="flip-card-front" >
+									<img id = "img_resume" src= "content/resume.jpeg" alt="go to resume page"/>
+	    						</div>
+	    						<div class="flip-card-back">
+	      							<p><b>Resume</b></p>
+	      							<p>Learn more about me!</p>
+							      	<a href ="resume.html"><b>Click Me For More RESUME Details</b></a>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ul>
+					<li>
+						<a class="back_nav" href="#logo">Back to the Top</a>
+					</li>
+				</ul>
 			</div>
-			<div class = "session_container">
-				<h1 class = "h1_about" id = "about">About<br>(Check flip-cards below)</h1>
-				<div class = "about">
-					<div class="flip-card" tabindex=0>
-						<div class="flip-card-inner">
-							<div class="flip-card-front" >
-								<img  id = "img_about" src= "content/about.jpeg" alt="go to about page"/>
-    						</div>
-    						<div class="flip-card-back">
-      							<p><b>About Me</b></p>
-      							<p>Background Information</p>
-						      	<p>Pets Gallery</p>
-						      	<p>Contact Form</p>
-						      	<a href = "about.html"><b>Click Me For More ABOUT Details</b></a>
-						    </div>
-						</div>
-					</div>
-				</div>
-				<h1 class = "h1_project" id= "projects">Projects<br>(Check flip-cards below)</h1>
-				<div class = "projects">
-					<div class="flip-card" id = "pj1" tabindex=0>
-						<div class="flip-card-inner">
-							<div class="flip-card-front" >
-								<img id = "img_project1" src= "content/pj1.jpeg" alt="go to project1 page" />
-    						</div>
-    						<div class="flip-card-back">
-      							<p><b>Project - Dark Sky</b></p>
-						      	<p>Indiana University Hoosier National Forest</p>
-						      	<p>Web Design and Data Management</p>
-						      	<a href = "project1.html"><b>Click Me For More PROJECT1 Details</b></a>
-						    </div>
-						</div>
-					</div>
-					<div class="flip-card" id = "pj2" tabindex=0>
-						<div class="flip-card-inner">
-							<div class="flip-card-front" >
-								<img id = "img_project2" src= "content/pj2.jpeg" alt="go to project2 page"/>
-    						</div>
-    						<div class="flip-card-back">
-      							<p><b>Project - Data Management Consulting</b></p>
-						      	<p>Dominos</p>
-						      	<p>Client Consulting</p>
-						      	<a href = "project2.html"><b>Click Me For More PROJECT2 Details</b></a>
-						    </div>
-						</div>
-					</div>
-					<div class="flip-card" id = "pj3" tabindex=0>
-						<div class="flip-card-inner">
-							<div class="flip-card-front" >
-								<img id = "img_project3" src= "content/pj3.jpeg" alt="go to project3 page"/>
-    						</div>
-    						<div class="flip-card-back">
-      							<p><b>Project - Healthy Wear (Pet Health Monitor)</b></p>
-						      	<p>University of Michigan</p>
-						      	<p>Product Design</p>
-						      	<a href = "project3.html"><b>Click Me For More PROJECT3 Details</b></a>
-						    </div>
-						</div>
-					</div>
-				</div>
-				<h1 class = "h1_resume" id = "resume">Resume<br>(Check flip-cards below)</h1>
-				<div class = "resume">
-					<div class="flip-card" tabindex=0>
-						<div class="flip-card-inner">
-							<div class="flip-card-front" >
-								<img id = "img_resume" src= "content/resume.jpeg" alt="go to resume page"/>
-    						</div>
-    						<div class="flip-card-back">
-      							<p><b>Resume</b></p>
-      							<p>Learn more about me!</p>
-						      	<a href ="resume.html"><b>Click Me For More RESUME Details</b></a>
-						    </div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<ul>
-				<li>
-					<a class="back_nav" href="#logo">Back to the Top</a>
-				</li>
-			</ul>
-
 		</main>
 		<script>
 			$(window).on("load",function(){
 				$(".loader-wrapper").fadeOut("slow");
 			});
 			$(window).on("load",function() {
-  				$("body").removeClass("preload");
+  				$("#pld").removeClass("preload");
 			});
 		</script>
 		<footer>
