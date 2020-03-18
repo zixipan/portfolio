@@ -43,6 +43,14 @@ h1{
   animation: none !important;
 }
 
+*{ 
+	cursor:url('../content/cat.ico'), auto;
+}
+
+a:hover{
+    cursor: url("../content/paw.ico"), auto;
+}
+
 
 
 /*loading page*/
