@@ -107,17 +107,17 @@ h1{
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
-.drop--01 {
+#drop_1 {
   -webkit-animation: drop 0.5s 0.15s infinite ease-in alternate;
           animation: drop 0.5s 0.15s infinite ease-in alternate;
   background-color: var(--c_01);
 }
-.drop--02 {
+#drop_2 {
   -webkit-animation: drop 0.5s 0.3s infinite ease-in alternate;
           animation: drop 0.5s 0.3s infinite ease-in alternate;
   background-color: var(--c_02);
 }
-.drop--03 {
+#drop_3 {
   -webkit-animation: drop 0.5s 0.45s infinite ease-in alternate;
           animation: drop 0.5s 0.45s infinite ease-in alternate;
   background-color: var(--c_03);
@@ -1425,17 +1425,17 @@ fieldset{
 	transition: none;
 	animation: none;
 }
-	.drop--01 {
+	#drop_1 {
 	-webkit-transition: none;
 	transition: none;
 	animation: none;
 }
-	.drop--02 {
+	#drop_2 {
 	-webkit-transition: none;
 	transition: none;
 	animation: none;
 }
-	.drop--03 {
+	#drop_3 {
 	-webkit-transition: none;
 	transition: none;
 	animation: none;
