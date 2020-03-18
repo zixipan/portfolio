@@ -16,7 +16,7 @@
   			gtag('config', 'UA-160851240-1');
 		</script>
 	</head>
-	<body>
+	<body body class="preload">
 		<a class = "skip" href="#skip">Skip to Main Content</a>
 		<header>
 			<img src="content/nav_logo.png" alt="logo" id = "logo">
@@ -132,6 +132,9 @@
 		<script>
 			$(window).on("load",function(){
 				$(".loader-wrapper").fadeOut("slow");
+			});
+			$(window).on("load",function() {
+  				$("body").removeClass("preload");
 			});
 		</script>
 		<footer>
