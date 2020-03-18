@@ -34,11 +34,13 @@ h1{
 	font-family: Cursive;
 	margin: 0 auto;
 }
-.preload * {
+
+.preload *{
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;
   -o-transition: none !important;
+  animation: none !important;
 }
 
 
@@ -306,19 +308,19 @@ a:focus a:active{
     opacity: 0;
   }
 }
-img:nth-child(1) {
+.photo_container img:nth-child(1) {
   animation-delay: 0s;
 }
 
-img:nth-child(2) {
+.photo_container img:nth-child(2) {
   animation-delay: 4s;
 }
 
-img:nth-child(3) {
+.photo_container img:nth-child(3) {
   animation-delay: 8s;
 }
 
-img:nth-child(4) {
+.photo_container img:nth-child(4) {
   animation-delay: 12s;
 }
 
@@ -352,6 +354,7 @@ img:nth-child(4) {
   overflow: hidden;
   height: 40px;
   padding: 0 40px;
+  display:none;
 }
 .content__container:before {
   content: '[';
