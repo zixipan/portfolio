@@ -34,7 +34,7 @@ h1{
 	font-family: Cursive;
 	margin: 0 auto;
 }
-.preload *{
+.preload * {
   -webkit-transition: none !important;
   -moz-transition: none !important;
   -ms-transition: none !important;
@@ -72,7 +72,7 @@ h1{
 }
 
 .loader {
-  /*width: 105px;
+/*  width: 105px;
   height: 175px;*/
   width:100%;
   height: 100%;
@@ -1354,7 +1354,7 @@ fieldset{
 	.photo_container{
 	background-image: url("../content/pic.jpeg");
 	background-repeat: no-repeat;
-  	background-size: 500px 330px;
+	background-size: 100%;
   }
 
 	.content{
